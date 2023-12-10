@@ -1,0 +1,34 @@
+{
+    "address": "0x3a5846882C0d5F8B0FA4bB04dc90C013104d125d",
+    "name": "ERC-20 Bridge",
+    "metadata": {
+        "output": {
+            "abi": [
+                {
+                    "inputs": [
+                        {
+                            "internalType": "address",
+                            "name": "_upgradeBeacon",
+                            "type": "address"
+                        },
+                        {
+                            "internalType": "bytes",
+                            "name": "_initializationCalldata",
+                            "type": "bytes"
+                        }
+                    ],
+                    "stateMutability": "payable",
+                    "type": "constructor"
+                },
+                {
+                    "stateMutability": "payable",
+                    "type": "fallback"
+                },
+                {
+                    "stateMutability": "payable",
+                    "type": "receive"
+                }
+            ]
+        }
+    }
+}

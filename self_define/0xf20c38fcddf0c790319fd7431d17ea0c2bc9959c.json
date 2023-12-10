@@ -1,0 +1,30 @@
+{
+    "address": "0xf20c38fcddf0c790319fd7431d17ea0c2bc9959c",
+    "name": "Optimism: Legacy Bridge",
+    "metadata": {
+        "output": {
+            "abi": [
+                {
+                    "inputs": [
+                        {
+                            "internalType": "address",
+                            "name": "_libAddressManager",
+                            "type": "address"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "_implementationName",
+                            "type": "string"
+                        }
+                    ],
+                    "stateMutability": "nonpayable",
+                    "type": "constructor"
+                },
+                {
+                    "stateMutability": "payable",
+                    "type": "fallback"
+                }
+            ]
+        }
+    }
+}

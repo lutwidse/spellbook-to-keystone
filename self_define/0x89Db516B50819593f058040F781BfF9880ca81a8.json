@@ -1,0 +1,106 @@
+{
+    "address": "0x89Db516B50819593f058040F781BfF9880ca81a8",
+    "name": "Quickswap Liquidity Bridge",
+    "metadata": {
+        "output": {
+            "abi": [
+                {
+                    "anonymous": false,
+                    "inputs": [
+                        {
+                            "indexed": false,
+                            "internalType": "uint256[]",
+                            "name": "amountIn",
+                            "type": "uint256[]"
+                        },
+                        {
+                            "indexed": false,
+                            "internalType": "address",
+                            "name": "lpToken",
+                            "type": "address"
+                        },
+                        {
+                            "indexed": false,
+                            "internalType": "uint256",
+                            "name": "liquidity",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "DEFIBASKET_UNISWAPV2_ADD_LIQUIDITY",
+                    "type": "event"
+                },
+                {
+                    "anonymous": false,
+                    "inputs": [
+                        {
+                            "indexed": false,
+                            "internalType": "uint256[]",
+                            "name": "amountOut",
+                            "type": "uint256[]"
+                        },
+                        {
+                            "indexed": false,
+                            "internalType": "address",
+                            "name": "lpToken",
+                            "type": "address"
+                        },
+                        {
+                            "indexed": false,
+                            "internalType": "uint256",
+                            "name": "liquidity",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "DEFIBASKET_UNISWAPV2_REMOVE_LIQUIDITY",
+                    "type": "event"
+                },
+                {
+                    "inputs": [
+                        {
+                            "internalType": "address[]",
+                            "name": "tokens",
+                            "type": "address[]"
+                        },
+                        {
+                            "internalType": "uint256[]",
+                            "name": "percentages",
+                            "type": "uint256[]"
+                        },
+                        {
+                            "internalType": "uint256[]",
+                            "name": "minAmounts",
+                            "type": "uint256[]"
+                        }
+                    ],
+                    "name": "addLiquidity",
+                    "outputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
+                },
+                {
+                    "inputs": [
+                        {
+                            "internalType": "address[]",
+                            "name": "tokens",
+                            "type": "address[]"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "percentage",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint256[]",
+                            "name": "minAmounts",
+                            "type": "uint256[]"
+                        }
+                    ],
+                    "name": "removeLiquidity",
+                    "outputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
+                }
+            ]
+        }
+    }
+}

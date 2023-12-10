@@ -1,0 +1,3 @@
+[submodule "spellbook"]
+	path = spellbook
+	url = https://github.com/duneanalytics/spellbook

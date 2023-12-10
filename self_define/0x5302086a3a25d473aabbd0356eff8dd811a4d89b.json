@@ -1,0 +1,19 @@
+{
+    "address": "0x5302086a3a25d473aabbd0356eff8dd811a4d89b",
+    "name": "UniversalRouter",
+    "metadata": {
+        "output": {
+            "abi": [
+                {
+                    "inputs": [],
+                    "name": "UnsupportedProtocolError",
+                    "type": "error"
+                },
+                {
+                    "stateMutability": "nonpayable",
+                    "type": "fallback"
+                }
+            ]
+        }
+    }
+}
